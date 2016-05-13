@@ -12,3 +12,9 @@ addons:
 script:
   - npm run lint
   - npm run test
+
+# whitelist
+branches:
+  only:
+    - master
+    - develop
