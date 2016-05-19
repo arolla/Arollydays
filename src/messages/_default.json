@@ -48,16 +48,16 @@
     ]
   },
   {
-    "id": "navigation.signup",
-    "defaultMessage": "Sign up",
+    "id": "navigation.separator.or",
+    "defaultMessage": "or",
     "message": "",
     "files": [
       "src/components/Navigation/Navigation.js"
     ]
   },
   {
-    "id": "navigation.separator.or",
-    "defaultMessage": "or",
+    "id": "navigation.signup",
+    "defaultMessage": "Sign up",
     "message": "",
     "files": [
       "src/components/Navigation/Navigation.js"
