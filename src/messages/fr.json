@@ -1,24 +1,24 @@
 [
   {
     "id": "header.banner.desc",
-    "defaultMessage": "Complex web apps made easy",
-    "message": "Complex web app fait simplement",
+    "defaultMessage": "Activity report and vacations",
+    "message": "Compte rendu d'activité et vacances",
     "files": [
       "src/components/Header/Header.js"
     ]
   },
   {
     "id": "header.banner.title",
-    "defaultMessage": "React",
-    "message": "React",
+    "defaultMessage": "Arollydays",
+    "message": "Arollydays",
     "files": [
       "src/components/Header/Header.js"
     ]
   },
   {
     "id": "header.brand",
-    "defaultMessage": "Your Company Brand",
-    "message": "Votre nom d'entreprise",
+    "defaultMessage": "Arolla",
+    "message": "Arolla",
     "files": [
       "src/components/Header/Header.js"
     ]
@@ -42,7 +42,7 @@
   {
     "id": "navigation.login",
     "defaultMessage": "Log in",
-    "message": "Connection",
+    "message": "Connexion",
     "files": [
       "src/components/Navigation/Navigation.js"
     ]
@@ -61,6 +61,14 @@
     "message": "ou",
     "files": [
       "src/components/Navigation/Navigation.js"
+    ]
+  },
+  {
+    "id": "footer.brand",
+    "defaultMessage": "Arolla",
+    "message": "",
+    "files": [
+      "src/components/Footer/Footer.js"
     ]
   }
 ]

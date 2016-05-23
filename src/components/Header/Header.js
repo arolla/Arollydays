@@ -18,17 +18,17 @@ import LanguageSwitcher from '../LanguageSwitcher';
 const messages = defineMessages({
   brand: {
     id: 'header.brand',
-    defaultMessage: 'Your Company Brand',
+    defaultMessage: 'Arolla',
     description: 'Brand name displayed in header',
   },
   bannerTitle: {
     id: 'header.banner.title',
-    defaultMessage: 'React',
+    defaultMessage: 'Arollydays',
     description: 'Title in page header',
   },
   bannerDesc: {
     id: 'header.banner.desc',
-    defaultMessage: 'Complex web apps made easy',
+    defaultMessage: 'Activity report and vacations',
     description: 'Description in header',
   },
 });

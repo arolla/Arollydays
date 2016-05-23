@@ -8,24 +8,31 @@
  */
 
 import React from 'react';
+import { defineMessages, FormattedMessage, injectIntl } from 'react-intl';
 import withStyles from 'isomorphic-style-loader/lib/withStyles';
 import s from './Footer.scss';
 import Link from '../Link';
+
+const messages = defineMessages({
+  brand: {
+    id: 'footer.brand',
+    defaultMessage: 'Arolla',
+    description: 'Brand name displayed in footer',
+  },
+});
 
 function Footer() {
   return (
     <div className={s.root}>
       <div className={s.container}>
-        <span className={s.text}>© Arolla</span>
-        <span className={s.spacer}>·</span>
-        <Link className={s.link} to="/">Home</Link>
+        <Link className={s.link} to="/">
+          <FormattedMessage {...messages.brand} />
+        </Link>
         <span className={s.spacer}>·</span>
         <Link className={s.link} to="/privacy">Privacy</Link>
-        <span className={s.spacer}>·</span>
-        <Link className={s.link} to="/not-found">Not Found</Link>
       </div>
     </div>
   );
 }
 
-export default withStyles(s)(Footer);
+export default injectIntl(withStyles(s)(Footer));
